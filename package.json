@@ -1,5 +1,5 @@
 {
-  "name": "pspdf-wc-pdfjs",
+  "name": "pdfjs-web-component",
   "version": "1.0.0",
   "main": "src/index.ts",
   "author": "Marco Scannadinari <m@scannadinari.co.uk>",
@@ -9,10 +9,10 @@
     "start": "webpack-dev-server --mode development"
   },
   "dependencies": {
-    "@types/webpack-dev-server": "^3.1.4",
     "pdfjs-dist": "^2.0.943"
   },
   "devDependencies": {
+    "@types/webpack-dev-server": "^3.1.4",
     "@types/node": "^11.11.5",
     "@types/pdfjs-dist": "^2.0.0",
     "@types/webpack": "^4.4.26",
