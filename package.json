@@ -1,0 +1,27 @@
+{
+  "name": "pspdf-wc-pdfjs",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "author": "Marco Scannadinari <m@scannadinari.co.uk>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development"
+  },
+  "dependencies": {
+    "@types/webpack-dev-server": "^3.1.4",
+    "pdfjs-dist": "^2.0.943"
+  },
+  "devDependencies": {
+    "@types/node": "^11.11.5",
+    "@types/pdfjs-dist": "^2.0.0",
+    "@types/webpack": "^4.4.26",
+    "copy-webpack-plugin": "^5.0.1",
+    "ts-loader": "^5.3.3",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.3.4000",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
